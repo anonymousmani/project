@@ -1,0 +1,76 @@
+.contact-box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.hero{
+    width: 66%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(68, 34, 99, 3), #11b970), url(pic7.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 281.9px;
+}
+.contact-formtitle{
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    color: goldenrod;
+}
+.form{
+    width: 90%;
+    max-width: 600px;
+}
+.input-group{
+    margin-bottom: 40px;
+    position: relative;
+}
+input, textarea{
+    width: 100%;
+    padding: 15px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+button{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: orangered;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 20px;
+}
+.row3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row3 .input-group{
+    flex-basis: 45%;
+}
